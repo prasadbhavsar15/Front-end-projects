@@ -1,0 +1,112 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(32, 1, 1);
+    height: 100vh;
+}
+.container
+{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #d4af37;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 1px #d4af37;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.companyName
+{
+    color: #d4af37;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.para{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.redline{
+    border: 2px solid red;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.circle
+{
+    background-color:#d4af37;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    color: rgb(74,64,5);
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(74,64,5);
+}
+.name{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.job{
+    color :red;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.id{
+    color : #d4af37;
+    font-size: 15px;
+    border: 2px solid #d4af37;
+    border-radius: 50px;
+    padding: 7px;
+    margin: auto;
+}
+.card{
+    /* background-color: white; */
+    /* padding: 20px; */
+    margin: 20px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;   
+    
+}
+.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+span{
+    color: white;
+}
+.heading{
+    /* background-color: yellow; */
+    color: #d4af37;
+    display: inline-block;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footer{
+    color: #d4af37;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
