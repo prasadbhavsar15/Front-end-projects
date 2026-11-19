@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Netflix-Homepage</title>
+    <style>
+        body{
+            background-image: url("./images/netflix-banner.jpg");
+            background-size: cover;
+            height: 100vh;
+        }
+        .bg-shade{
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.8);
+            margin: -10px;
+        }
+        header{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            padding: 50px 100px 50px 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .brandname{
+            font-size: 50px;
+            font-weight: bold;
+            color: red;
+            padding-left: 10px;
+            text-shadow: 1px 1px 1px white;
+        }
+        .language{
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 10px;
+            margin-right:10px;
+            border: 1px solid white;
+        }
+        .btn-signin{
+            background-color: red;
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+            width: 80px;
+            text-align: center;
+
+        }
+        .shortcut{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        article{
+            font-family: Arial, Helvetica, sans-serif;
+            color: aliceblue;
+            text-align:  center;
+            padding-top: 50px;
+        }
+        .article-title{
+
+            font-size: 60px;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+        .article-subtitle{
+            font-size: 25px;
+            padding-bottom: 20px;
+        }
+        .main-title{
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        .formr-reg{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .email{
+            border: 1px solid gray;
+            padding: 10px;
+            width: 300px;
+            text-align: left;
+        }
+        .btn-start{
+            background-color: red;
+            color: white;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+            margin-left: 15px;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <div class="bg-shade">
+        <header>
+            <div>   
+                <span class="brandname">NETFLIX</span>
+            </div>
+            <div>
+                <div class="shortcut">
+                    <div class="language">
+                        <span class="bi bi-translate"></span>
+                        <span>Language</span>
+                        <span class="bi bi-caret-down-fill"></span>
+                    </div>
+                    <div class="btn-signin"> Signin</div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <article>
+                <div class="article-title">Entertentment for <br> every moment</div>
+                <div class="article-subtitle">Start at 149. Cancle at any time</div>
+                <main>
+                    <div class="main-title">Ready to watch? Enter your email to create or restart your journey  </div>
+                    <div class="formr-reg">
+                        <div class="email">E-mail address</div>
+                        <div class="btn-start">Get Started <span class="bi bi-chevron-bar-right"></span></div>
+                    </div>
+                </main>
+            </article>
+        </section>
+    </div>
+
+    
+</body>
+</html>
